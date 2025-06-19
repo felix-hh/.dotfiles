@@ -1,0 +1,169 @@
+{
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[sql]": {
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jinja-sql]": {
+        "editor.defaultFormatter": "henriblancke.vscode-dbt-formatter",
+    },
+    "conventionalCommits.promptBody": false,
+    "conventionalCommits.promptFooter": false,
+    "cursor.cpp.disabledLanguages": [
+        "yaml",
+        "plaintext",
+        "markdown",
+        "cpp"
+    ],
+    "dbt-formatter.camelCase": false,
+    "dbt-formatter.dialect": "default",
+    "dbt-formatter.lowerWords": false,
+    "dbt-formatter.upper": false,
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {},
+    "editor.fontLigatures": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.largeFileOptimizations": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggest.matchOnWordStartOnly": false,
+    "explorer.confirmDelete": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "files.associations": {
+        "*.toml": "python"
+    },
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.ignoreLegacyWarning": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.runStartupCommands": [
+        "%load_ext autoreload",
+        "%autoreload 2"
+    ],
+    "mergeEditor.diffAlgorithm": "experimental",
+    "notebook.output.textLineLimit": 700,
+    "problems.showCurrentInStatus": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingTypeStubs": "none",
+        "reportUnknownArgumentType": "information",
+        "reportUnknownLambdaType": "none",
+        "reportUnknownMemberType": "information",
+        "reportUnknownVariableType": "warning"
+    },
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.defaultInterpreterPath": "/Users/felixh/Library/Caches/pypoetry/virtualenvs/hacker-data-ingestion-zG6p_Wqx-py3.11/bin/python",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.languageServer": "Default",
+    "python.terminal.activateEnvironment": false,
+    "python.testing.pytestArgs": [
+        "--disable-warnings"
+    ],
+    "python.testing.pytestEnabled": true,
+    "remote.downloadExtensionsLocally": true,
+    "remote.SSH.defaultExtensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff",
+        "mechatroner.rainbow-csv",
+        "njpwerner.autodocstring",
+        "ms-python.vscode-pylance",
+        "tamasfe.even-better-toml",
+        "eamodio.gitlens",
+        "zeshuaro.vscode-python-poetry",
+        "henriblancke.vscode-dbt-formatter"
+    ],
+    "remote.SSH.remotePlatform": {
+        "AccessMRF": "linux",
+        "AzureBig1": "linux",
+        "Big": "linux",
+        "cloud": "linux",
+        "cloud-xl": "linux",
+        "cplrtx": "linux",
+        "DataPipeline": "linux",
+        "david": "linux",
+        "lambda": "linux",
+        "Memory001": "linux",
+        "MRFBigSpot": "linux",
+        "MRFMemory": "linux",
+        "MRFMemorySpot": "linux",
+        "MRFParse-001": "linux",
+        "MRFParse-002": "linux",
+        "quest": "linux",
+        "TempCommonCrawl": "linux",
+        "wcdl2": "linux",
+        "DataPipelineNow": "linux",
+        "accessmrf": "linux"
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.persistentSessionScrollback": 1000,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<esc>"
+            ],
+            "before": [
+                "j",
+                "k"
+            ]
+        }
+    ],
+    "window.commandCenter": true,
+    "window.confirmBeforeClose": "always",
+    "window.zoomLevel": 1,
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.editorLargeFileConfirmation": 4096,
+    "workbench.iconTheme": "vscode-icons",
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.codeActionsOnSave": {
+        "notebook.source.organizeImports": "explicit",
+        "notebook.source.format": "explicit",
+        "notebook.fixall.ruff": "explicit"
+    },
+    "notebook.insertFinalNewline": true,
+    "notebook.output.scrolling": true,
+    "editor.minimap.enabled": true,
+    "git.path": "/usr/local/bin//git",
+    "typescript.tsserver.log": "off",
+    "gitlens.views.commits.showStashes": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "repositories": false,
+        "searchAndCompare": false,
+        "launchpad": false
+    }
+}

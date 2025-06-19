@@ -1,0 +1,6 @@
+-- Duck head prompt
+.prompt '⚫◗ '
+-- Example SQL statement
+SELECT 'Begin quacking!' AS "Ready, Set, ...";
+set s3_region='us-west-2';
+.timer on
