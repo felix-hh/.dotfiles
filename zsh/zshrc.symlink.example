@@ -1,0 +1,6 @@
+# shortcut to this dotfiles path is $ZSH
+export ZSH=$HOME/.dotfiles
+
+# all of our zsh files
+typeset -U config_files
+config_files=($ZSH/**/*.zsh)
