@@ -1,37 +1,17 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-
-brew 'cloudflared'
-brew 'imagemagick'
-brew 'postgresql@14'
-brew 'redis'
-brew 'ruby-build'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
-brew 'wget'
-brew 'yt-dlp'
-
-cask '1password'
-cask 'airtable'
-cask 'android-platform-tools'
-cask 'arq'
-cask 'diffusionbee'
-cask 'handbrake'
-cask 'messenger'
-cask 'notion-calendar'
-cask 'plex'
-cask 'qlvideo'
-cask 'sonos'
-cask 'steam'
-cask 'transmission'
-cask 'raycast'
-cask 'warp'
-cask 'whatsapp'
-cask 'windsurf'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'zed'
-cask 'zoom'
+vscode "charliermarsh.ruff"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "henriblancke.vscode-dbt-formatter"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.datawrangler"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "tamasfe.even-better-toml"
+vscode "vivaxy.vscode-conventional-commits"
+vscode "vscodevim.vim"
